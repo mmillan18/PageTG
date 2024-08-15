@@ -1,0 +1,15 @@
+// settings.scss
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+// Define fonts
+$font-family-base: 'Roboto', sans-serif;
+
+// Define colors
+$color-facultad-ingenieria: #f05323; // PANTONE 138 PC
+$color-corporativo-azul: #0033a0; // PANTONE 288 PC
+$color-corporativo-amarillo: #ffd700; // PANTONE 123 PC
+
+body {
+  font-family: $font-family-base;
+}

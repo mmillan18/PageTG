@@ -1,0 +1,20 @@
+  /* General */
+  html, body, #app, .v-application--wrap {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .v-main, .v-container, .v-row {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Importa los estilos de los componentes */
+  @import './Headers.scss';
+  @import './SidebarMenu.scss';
+  @import './Inicio.scss';
+  
