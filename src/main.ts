@@ -6,6 +6,8 @@
 
 // Plugins
 import { registerPlugins } from '@/plugins'
+import 'remixicon/fonts/remixicon.css';
+
 
 // Components
 import App from './App.vue'

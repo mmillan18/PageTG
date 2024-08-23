@@ -7,12 +7,12 @@
       <v-container fluid>
         <v-row>
           <!-- Menú lateral del profesor -->
-          <v-col cols="12" md="9" lg="3"> <!-- Ajusta el ancho de la columna -->
+          <v-col cols="12" md="3" class="sidebar-container">
             <SidebarMenu />
           </v-col>
 
           <!-- Contenido principal del profesor -->
-          <v-col cols="12" md="9" lg="9" class="inicio-container">
+          <v-col cols="12" md="9" class="content-container">
             <Inicio />
           </v-col>
         </v-row>
@@ -20,7 +20,6 @@
     </v-main>
   </v-app>
 </template>
-
 
 <script lang="ts">
 import { defineComponent } from 'vue'
