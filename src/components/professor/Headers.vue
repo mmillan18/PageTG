@@ -8,7 +8,7 @@
     <v-menu offset-y>
       <template v-slot:activator="{ props }">
         <div class="avatar-container" v-bind="props">
-          <v-avatar size="40">
+          <v-avatar size="24">
             <img src="@/assets/foto.PNG" alt="User Avatar" class="avatar-img">
           </v-avatar>
           <span class="avatar-text"></span>
