@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  padding: 0;
+  padding: 5px;
   box-sizing: border-box;
   width: 250px;
   position: fixed !important; /* Mantiene el sidebar fijo en su lugar */
@@ -16,7 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px 0;
+  text-align: center;
 }
 
 .menu-logo {
@@ -60,7 +60,8 @@
 }
 
 .logout-button {
-  padding: 10px 20px;
+
+  /*padding: 10px 20px;
   background-color: #ffffff;
   color: #dc3545;
   border: 1px solid #dc3545;
@@ -77,7 +78,7 @@
 
   &:hover {
     background-color: #ffffff;
-  }
+  }*/
 }
 
 .toggle-menu-button {
@@ -102,11 +103,11 @@
   }
 
   .sidebar-menu {
-    padding: 5px 0;
+    padding: 5px;
   }
 
-  .logout-button {
+  /*.logout-button {
     width: calc(100% - 60px);
     margin: 120px 7px;
-  }
+  }*/
 }

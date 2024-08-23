@@ -76,15 +76,17 @@
 
     <!-- Botón de Cerrar sesión -->
     <template v-slot:append>
+      <v-list-item>
       <v-btn
         @click="navigateTo('logout')"
-        class="logout-button"
         block
         color="black"
         prepend-icon="ri-logout-box-line"
+        class="logout-button"
       >
         Cerrar sesión
       </v-btn>
+    </v-list-item>
     </template>
   </v-navigation-drawer>
 
